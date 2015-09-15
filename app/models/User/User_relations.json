@@ -1,6 +1,17 @@
 {
-	"registeredWith":{
+	"user_email":{
 		"model":"EmailAddress",
-		"cardinality":"one_to_one"
+		"required":true,
+		"cardinality":"one"
+	},
+	"user_password":{
+		"model":"Authentication",
+		"required":true,
+		"cardinality":"one"
+	},
+	"user_website":{
+		"model":"Website",
+		"required":false,
+		"cardinality":"many"
 	}
 }

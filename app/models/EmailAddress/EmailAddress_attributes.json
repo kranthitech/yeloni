@@ -9,5 +9,7 @@
             "format": "email"
         }
     },
-    "required": ["email"]
+    "required": ["email"],
+    "create":true, 
+    "rest":true
 }
