@@ -1,0 +1,15 @@
+{
+	"title": "Authentication",
+	"description": "Model for Authentication",
+	"type": "object",
+	"properties": {
+		"password": {
+			"description": "user's password",
+			"type": "string",
+		}
+	},
+	"required": ["password"],
+	"create": true,
+	"rest": true,
+	"store": "mongo"
+}

@@ -1,0 +1,17 @@
+[
+	{
+		"model":"Widget",
+		"required":true,
+		"cardinality":"one"
+	},
+	{
+		"model":"Payment",
+		"required":false,
+		"cardinality":"one"		
+	},
+	{
+		"model":"Purchasable",
+		"required":true,
+		"cardinality":"many"
+	}
+]

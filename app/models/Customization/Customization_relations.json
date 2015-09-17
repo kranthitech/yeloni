@@ -1,0 +1,22 @@
+[
+	{
+		"model":"Feature",
+		"required":false,
+		"cardinality":"one"
+	},
+	{
+		"model":"Design",
+		"required":false,
+		"cardinality":"one"		
+	},
+	{
+		"model":"Purchasable",
+		"required":true,
+		"cardinality":"one"
+	},
+	{
+		"model":"Widget",
+		"required":false,
+		"cardinality":"many"
+	}
+]

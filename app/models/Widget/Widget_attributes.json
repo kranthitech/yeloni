@@ -1,0 +1,16 @@
+{
+	"title": "Widget",
+	"description":"Model of the Widget",
+	"type": "object",
+	"properties": {
+		"configuration": {
+			"description": "user's widget_configuration",
+			"type":"string"
+		}
+	},
+	"required": ["configuration"],
+	"create": true,
+	"rest": true,
+	"store": "mongo",
+	"accessfrom": "Yeloni"
+}

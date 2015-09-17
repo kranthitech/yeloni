@@ -1,5 +1,5 @@
 {
-    "title": "Email Address",
+    "title": "EmailAddress",
     "description": "Model for Email Address",
     "type": "object",
     "properties": {
@@ -11,5 +11,7 @@
     },
     "required": ["email"],
     "create":true, 
-    "rest":true
+    "rest":true,
+    "store": "mongo",
+    "accessfrom": "Yeloni, Blogpage"
 }

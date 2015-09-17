@@ -1,0 +1,7 @@
+[
+	{
+		"model":"Visit",
+		"required":false,
+		"cardinality":"many"
+	}
+]

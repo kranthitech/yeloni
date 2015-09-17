@@ -1,0 +1,21 @@
+{
+	"title": "Order",
+	"description": "Model of the Order",
+	"type": "object",
+	"properties": {
+		"license": {
+			"description": "widget license",
+			"type": "string"
+
+		},
+		"expiry": {
+			"description": "widget expiry",
+			"type": "string"
+		}
+	},
+	"required": ["license"],
+	"create": true,
+	"rest": true,
+	"store": "mongo",
+	"accessfrom": "Yeloni"
+}

@@ -1,0 +1,17 @@
+[
+	{
+		"model":"Customization",
+		"required": true,
+		"cardinality":"many"
+	},
+	{
+		"model":"Order",
+		"required":true,
+		"cardinality":"one"		
+	},
+	{
+		"model":"Domain",
+		"required":true,
+		"cardinality":"one"
+	}
+]

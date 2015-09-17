@@ -1,0 +1,7 @@
+[
+	{
+		"model":"Order",
+		"required":true,
+		"cardinality":"one"
+	}
+]

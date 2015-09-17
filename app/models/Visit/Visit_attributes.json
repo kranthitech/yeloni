@@ -1,0 +1,25 @@
+{
+	"title": "Visit",
+	"description": "Model of the Visit",
+	"type": "object",
+	"properties": {
+		"timestamp": {
+			"description": "user's domain_timestamp",
+			"type": "string"
+		},
+		"duration": {
+			"description": "user's domain_duration",
+			"type": "string"
+		},
+		"location": {
+			"description": "user's domain_location",
+			"type": "strring"
+		}
+	},
+	"required": ["timestamp"],
+	"create": false,
+	"rest": true,
+	"store": "mongo",
+	"accessfrom": "BlogPage"
+}
+

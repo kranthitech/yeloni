@@ -1,0 +1,17 @@
+[
+	{
+		"model":"Website",
+		"required":true,
+		"cardinality":"one"
+	},
+	{
+		"model":"PageMeta",
+		"required":false,
+		"cardinality":"one"		
+	},
+	{
+		"model":"Visit",
+		"required":false,
+		"cardinality":"many"
+	}
+]

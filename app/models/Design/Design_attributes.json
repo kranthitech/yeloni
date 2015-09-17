@@ -1,0 +1,24 @@
+{
+	"title": "Design",
+	"description": "Model of the Design",
+	"type": "object",
+	"properties": {
+		"template": {
+			"description": "Website Design",
+			"type": "string"
+		},
+		"styles": {
+			"description": "Website Styles",
+			"type": "string"
+		},
+		"parameters": {
+			"description": "Website parameters",
+			"type": "string"
+		}
+	},
+	"required": ["template"],
+	"create": false,
+	"rest":true,
+	"store": "lowdb",
+	"accessfrom": "Yeloni"
+}

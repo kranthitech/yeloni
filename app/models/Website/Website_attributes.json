@@ -18,5 +18,9 @@
             "type":"object"
         }
     },
-    "required": ["domain"]
+    "required": ["domain"],
+    "create": true,
+    "rest": true,
+    "store": "mongo",
+    "accessfrom": "Yeloni"
 }

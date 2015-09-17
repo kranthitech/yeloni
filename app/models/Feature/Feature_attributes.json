@@ -1,0 +1,20 @@
+{
+	"title": "Feature",
+	"description": "Model of the Feature",
+	"type" : "object",
+	"properties": {
+		"name": {
+			"description": "Widget Feature",
+			"type": "string"
+		},
+		"schema": {
+			"description" : "Widget Feature",
+			"type": "string"
+		}
+	},
+	"required": ["name"],
+	"create": false,
+	"rest": true,
+	"store":"lowdb",
+	"accessfrom": "Yeloni"
+}

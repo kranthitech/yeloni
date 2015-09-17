@@ -1,13 +1,12 @@
-{
-	"email_user":{
+[
+	{
 		"model":"User",
 		"required":false,
 		"cardinality":"one"
 	},
-	"email_visit":{
+	{
 		"model":"Visit",
 		"required":false,
-		"cardinality":"many"
+		"cardinality":"many"		
 	}
-
-}
+]

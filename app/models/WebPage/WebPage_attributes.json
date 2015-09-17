@@ -1,0 +1,15 @@
+{
+	"title": "WebPage",
+	"description": "Model of the WebPage",
+	"type": "object",
+	"properties": {
+		"url": {
+			"description": "User's website url",
+			"type": "string"	
+		}
+	},
+	"required": ["url"],
+	"create": true,
+	"rest": false,
+	"store":"mongo"
+}

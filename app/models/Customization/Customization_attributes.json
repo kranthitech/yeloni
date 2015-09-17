@@ -1,0 +1,16 @@
+{
+	"title": "Customization",
+	"descirption": "Model of the Customization",
+	"type": "object",
+	"properties": {
+		"schema": {
+			"description": "Website Customization",
+			"type": "string",
+		}
+	},
+	"required": ["schema"],
+	"create": false,
+	"rest": true,
+	"store":"lowdb",
+	"accessfrom": "Yeloni"
+}

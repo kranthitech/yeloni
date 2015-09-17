@@ -1,0 +1,36 @@
+{
+	"title": "Payment",
+	"description": "Model of the order payment",
+	"type": "object",
+	"properties": {
+		"paymentNumber": {
+			"description": "User's payment_number",
+			"type": "string"
+		},
+		"amount": {
+			"description": "User's amount",
+			"type": "string"
+		},
+		"paymentMode": {
+			"description": "User's payment mode",
+			"type": "string"
+		},
+		"provider": {
+			"description": "User's provider",
+			"type": "string"
+		},
+		"email": {
+			"description": "User's registered email id",
+			"type": "string"
+		},
+		"mobilenumber": {
+			"description": "User's registered mobile number",
+			"type": "string"
+		}
+	},
+	"required": ["paymentNumber"],
+	"create": true,
+	"rest": true,
+	"store": "mongo",
+	"accessfrom": "Payment_Gateway"
+}

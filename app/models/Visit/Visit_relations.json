@@ -1,22 +1,23 @@
 [
 	{
-		"model":"EmailAddress",
+		"model":"WebPage",
 		"required":true,
 		"cardinality":"one"
 	},
 	{
-		"model":"Authentication",
+		"model":"Browser",
 		"required":true,
 		"cardinality":"one"		
 	},
 	{
-		"model":"Website",
+		"model":"EmailAddress",
 		"required":false,
-		"cardinality":"many"
+		"cardinality":"one"
 	},
 	{
-		"model":"Visit",
+		"model":"Domain",
 		"required":false,
-		"cardinality":"many"
+		"cardinality":"one",
+		"label:referrer"
 	}
 ]

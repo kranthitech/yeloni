@@ -3,14 +3,18 @@
     "description": "A user of the application",
     "type": "object",
     "properties": {
-        "first_name": {
+        "firstName": {
             "description": "First name of the user",
             "type": "string"
         },
-        "last_name": {
+        "lastName": {
             "description": "Last name of the user",
             "type": "string"
         }
     },
-    "required": ["first_name"]
+    "required": ["firstName"],
+    "create": true,
+    "rest": true,
+    "store":"mongo",
+    "accessFrom":"Yeloni"
 }

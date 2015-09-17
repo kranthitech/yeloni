@@ -1,0 +1,15 @@
+{
+	"title": "Domain",
+	"description": "Model of the Domain",
+	"type": "object",
+	"properties": {
+		"domain": {
+			"description": "Webstie domain",
+			"type": "string"
+		}
+	},
+	"required": ["domain"],
+	"create": false,
+	"rest": false,
+	"store": "mongo"
+}

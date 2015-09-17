@@ -1,0 +1,20 @@
+{
+	"title": "PageMeta",
+	"description": "Model of the PageMeta",
+	"type": "object",
+	"properties": {
+		"postid": {
+			"description": "user's webpage postid",
+			"type": "string"
+		},
+		"meta": {
+			"description": "user's webpage meta",
+			"type": "string"
+		},
+		"content": {
+			"description": "user's webpage content",
+			"type":"string"
+		}
+	},
+	"required": ["postid"]
+}

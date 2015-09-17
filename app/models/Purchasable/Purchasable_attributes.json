@@ -1,0 +1,28 @@
+{
+	"title": "Purchasable",
+	"description": "Model of the Purchasable",
+	"type": "object",
+	"properties": {
+		"cost": {
+			"description": "user's order Purchasable_cost",
+			"type": "string"
+		},
+		"monthlyCost": {
+			"description": "user's order monthly_cost",
+			"type": "string"
+		},
+		"annualCost": {
+			"description": "user's oder annual_cost",
+			"type": "string"
+		},
+		"trialPeriod": {
+			"description": "user's order trial_period",
+			"type": "string"
+		}
+	},
+	"required": ["cost"],
+	"create": false,
+	"rest": true,
+	"store": "lowdb",
+	"accessfrom": "Yeloni"
+}

@@ -1,0 +1,22 @@
+[
+	{
+		"model":"Widget",
+		"required":false,
+		"cardinality":"many"
+	},
+	{
+		"model":"User",
+		"required":true,
+		"cardinality":"one"		
+	},
+	{
+		"model":"Webpage",
+		"required":false,
+		"cardinality":"many"
+	},
+	{
+		"model":"Domain",
+		"required":true,
+		"cardinality":"one"
+	}
+]
