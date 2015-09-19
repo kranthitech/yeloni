@@ -1,7 +1,6 @@
 [
 	{
-		"model":"Order",
-		"required":true,
-		"cardinality":"one"
+		"type":"belongsTo",
+		"model": "Order"
 	}
 ]

@@ -1,17 +1,14 @@
 [
 	{
-		"model":"Customization",
-		"required": true,
-		"cardinality":"many"
+		"type":"embedsMany",
+		"model": "Customization"
 	},
 	{
-		"model":"Order",
-		"required":true,
-		"cardinality":"one"		
+		"type":"belongsTo",
+		"model":"Website"
 	},
 	{
-		"model":"Domain",
-		"required":true,
-		"cardinality":"one"
+		"type":"hasOne",
+		"model":"Order"
 	}
 ]

@@ -1,17 +1,11 @@
 [
 	{
-		"model":"Website",
-		"required":true,
-		"cardinality":"one"
+		"type":"belongsTo",
+		"model": "Website",
+		"required": true
 	},
 	{
-		"model":"PageMeta",
-		"required":false,
-		"cardinality":"one"		
-	},
-	{
-		"model":"Visit",
-		"required":false,
-		"cardinality":"many"
+		"type":"embedsOne",
+		"model":"PageMeta"
 	}
 ]

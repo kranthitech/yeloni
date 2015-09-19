@@ -1,17 +1,15 @@
 [
 	{
+		"type":"hasOne",
+		"model": "Payment"
+	},
+	{
+		"type":"belongsTo",
 		"model":"Widget",
-		"required":true,
-		"cardinality":"one"
+		"required":true
 	},
 	{
-		"model":"Payment",
-		"required":false,
-		"cardinality":"one"		
-	},
-	{
-		"model":"Purchasable",
-		"required":true,
-		"cardinality":"many"
+		"type":"hasMany",
+		"model":"Purchasable"
 	}
 ]

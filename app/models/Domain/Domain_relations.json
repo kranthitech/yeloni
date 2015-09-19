@@ -1,13 +1,3 @@
 [
-	{
-		"model":"Visit",
-		"required":true,
-		"cardinality":"one"
-		"label:referrer"
-	},
-	{
-		"model":"Website",
-		"required":false,
-		"cardinality":"one"	
-	}
+	
 ]

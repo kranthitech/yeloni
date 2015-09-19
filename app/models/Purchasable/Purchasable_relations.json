@@ -1,12 +1,3 @@
 [
-	{
-		"model":"Order",
-		"required":false,
-		"cardinality":"many"
-	},
-	{
-		"model":"Customization",
-		"required":true,
-		"cardinality":"one"		
-	}
+	
 ]

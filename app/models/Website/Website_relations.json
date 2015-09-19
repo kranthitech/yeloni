@@ -1,22 +1,16 @@
 [
 	{
-		"model":"Widget",
-		"required":false,
-		"cardinality":"many"
+		"type":"hasMany",
+		"model": "Widget"
 	},
 	{
+		"type":"belongsTo",
 		"model":"User",
-		"required":true,
-		"cardinality":"one"		
+		"required":true
 	},
 	{
-		"model":"Webpage",
-		"required":false,
-		"cardinality":"many"
-	},
-	{
+		"type":"embedsOne",
 		"model":"Domain",
-		"required":true,
-		"cardinality":"one"
+		"required":true
 	}
 ]

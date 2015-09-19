@@ -1,22 +1,15 @@
 [
 	{
+		"type":"embedsOne",
+		"model": "Authentication"
+	},
+	{
+		"type":"hasMany",
+		"model":"Website"
+	},
+	{
+		"type":"embedsOne",
 		"model":"EmailAddress",
-		"required":true,
-		"cardinality":"one"
-	},
-	{
-		"model":"Authentication",
-		"required":true,
-		"cardinality":"one"		
-	},
-	{
-		"model":"Website",
-		"required":false,
-		"cardinality":"many"
-	},
-	{
-		"model":"Visit",
-		"required":false,
-		"cardinality":"many"
+		"required":true
 	}
 ]
