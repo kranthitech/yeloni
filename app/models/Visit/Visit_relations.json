@@ -1,23 +1,16 @@
 [
 	{
-		"model":"WebPage",
-		"required":true,
-		"cardinality":"one"
-	},
-	{
-		"model":"Browser",
-		"required":true,
-		"cardinality":"one"		
-	},
-	{
-		"model":"EmailAddress",
-		"required":false,
-		"cardinality":"one"
-	},
-	{
+		"type":"embedsOne",
+		"model": "WebPage"
+	},{
+		"type":"embedsOne",
+		"model":"Browser"
+	},{
+		"type":"hasOne",
 		"model":"Domain",
-		"required":false,
-		"cardinality":"one",
-		"label:referrer"
+		"as":"referrer"
+	},{
+		"type":"embedsOne",
+		"model":"EmailAddress"
 	}
 ]
