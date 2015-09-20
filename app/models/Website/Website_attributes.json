@@ -11,7 +11,7 @@
         "platform":{
             "description": "Platform on which the Website is built. (Wordpress/ Magento etc)",
             "default":"native",
-            "enum":["native","wordpress","magento","shopify"],
+            "enum":["native","wordpress","magento","shopify"]
         },
         "taxonomy":{
             "description": "Taxonomy of Content in the website",

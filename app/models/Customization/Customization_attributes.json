@@ -5,7 +5,7 @@
 	"properties": {
 		"schema": {
 			"description": "Website Customization",
-			"type": "string",
+			"type": "string"
 		}
 	},
 	"required": ["schema"],

@@ -5,7 +5,7 @@
 	"properties": {
 		"password": {
 			"description": "user's password",
-			"type": "string",
+			"type": "string"
 		}
 	},
 	"required": ["password"],
