@@ -1,6 +1,6 @@
 {
-    "verify": {
-        "rest": true,
-        "operation": "User.checkVerificationCode"
+    "register":{
+    	"type":"create",
+    	"inputs":[]
     }
 }
