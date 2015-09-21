@@ -1,3 +1,6 @@
 [
-
+	{
+		"type":"belongsTo",
+		"model":"User"
+	}
 ]
