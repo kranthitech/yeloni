@@ -11,8 +11,7 @@
 	{
 		"type":"hasOne",
 		"model":"Domain",
-		"as":"referrer",
-		"required":true
+		"as":"referrer"
 	},
 	{
 		"type":"embedsOne",
