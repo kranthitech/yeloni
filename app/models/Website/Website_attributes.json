@@ -1,5 +1,6 @@
 {
     "title": "Website",
+    "extends":"Application",
     "description": "A website using the application",
     "type": "object",
     "properties": {

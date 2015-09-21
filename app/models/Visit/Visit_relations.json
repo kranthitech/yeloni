@@ -5,12 +5,14 @@
 	},
 	{
 		"type":"embedsOne",
-		"model":"Browser"
+		"model":"Browser",
+		"required":true
 	},
 	{
 		"type":"hasOne",
 		"model":"Domain",
-		"as":"referrer"
+		"as":"referrer",
+		"required":true
 	},
 	{
 		"type":"embedsOne",

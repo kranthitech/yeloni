@@ -6,7 +6,8 @@
         "email": {
             "description": "User's email address",
             "type": "string",
-            "format": "email"
+            "format": "email",
+            "unique": true
         }
     },
     "required": ["email"],

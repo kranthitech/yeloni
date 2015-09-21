@@ -8,7 +8,7 @@
 		"model":"Website"
 	},
 	{
-		"type":"embedsOne",
+		"type":"hasOne",
 		"model":"EmailAddress",
 		"required":true
 	}
