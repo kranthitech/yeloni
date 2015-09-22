@@ -1,11 +1,14 @@
 {
-    "initial": "created",
-    "transitions": {
-        "created": {
-            "verify": "verified"
-        },
-        "verified": {
-
-        }
+    "_":{
+    	"register":"registered"
+    },
+    "registered":{
+    	"verify":"verified"
+    },
+    "verfied":{
+    	"pay":"premium"
+    },
+    "premium":{
+    	"pay":"premium"
     }
 }
