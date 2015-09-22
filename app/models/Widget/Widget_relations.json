@@ -1,14 +1,14 @@
-[
-	{
-		"type":"embedsMany",
-		"model": "Customization"
-	},
-	{
-		"type":"belongsTo",
-		"model":"Website"
-	},
-	{
-		"type":"hasOne",
-		"model":"Order"
-	}
-]
+[{
+    "model": "Design",
+    "type": "hasOne",
+    "required": true
+}, {
+    "type": "embedsMany",
+    "model": "Customization"
+}, {
+    "type": "belongsTo",
+    "model": "Website"
+}, {
+    "type": "hasOne",
+    "model": "Order"
+}]

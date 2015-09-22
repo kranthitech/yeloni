@@ -1,15 +1,14 @@
-[
-	{
-		"type":"embedsOne",
-		"model": "Authentication"
-	},
-	{
-		"type":"hasMany",
-		"model":"Website"
-	},
-	{
-		"type":"hasOne",
-		"model":"EmailAddress",
-		"required":true
-	}
-]
+[{
+    "type": "embedsOne",
+    "model": "Authentication"
+}, {
+    "type": "hasMany",
+    "model": "Website"
+}, {
+    "type": "hasOne",
+    "model": "EmailAddress",
+    "required": true
+}, {
+	"type":"embedsOne",
+	"model":"Authentication"
+}]

@@ -11,6 +11,14 @@
         "lastName": {
             "description": "Last name of the user",
             "type": "string"
+        },
+        "code":{
+            "type":"string",
+            "generate":true
+        },
+        "amount":{
+            "type":"number",
+            "minimum":0
         }
     },
     "required": ["firstName"],

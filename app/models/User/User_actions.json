@@ -1,6 +1,16 @@
 {
     "register":{
+        "public":true,
     	"type":"create",
-    	"inputs":[]
+    	"inputs":["authentication","firstName","lastName","emailAddress_id"]
+    },
+    "verify":{
+        "public":true,
+    	"type":"match",
+    	"input":["code"]
+    },
+    "upgrade":{
+    	"type":"increment",
+        "input":["amount"]
     }
 }
