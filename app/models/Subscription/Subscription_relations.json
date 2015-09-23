@@ -1,0 +1,7 @@
+[
+	{
+		"type":"hasOne",
+		"model":"Puchasabale",
+		"required":true
+	}
+]

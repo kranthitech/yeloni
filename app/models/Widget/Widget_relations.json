@@ -1,14 +1,19 @@
-[{
-    "model": "Design",
+[
+{
     "type": "hasOne",
+    "model": "Design",
     "required": true
-}, {
+}, 
+{
     "type": "embedsMany",
     "model": "Customization"
-}, {
+}, 
+{
     "type": "belongsTo",
     "model": "Website"
-}, {
-    "type": "hasOne",
-    "model": "Order"
-}]
+}, 
+{
+    "type": "hasMany",
+    "model": "Subscription"
+}
+]

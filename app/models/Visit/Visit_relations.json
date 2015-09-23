@@ -11,10 +11,7 @@
 	{
 		"type":"hasOne",
 		"model":"Domain",
-		"as":"referrer"
-	},
-	{
-		"type":"embedsOne",
-		"model":"EmailAddress"
+		"as":"referrer",
+		"required":true
 	}
 ]

@@ -5,10 +5,6 @@
 	},
 	{
 		"type":"hasOne",
-		"model":"Purchasable"
-	},
-	{
-		"type":"hasOne",
 		"model":"Design"
 	}
 ]

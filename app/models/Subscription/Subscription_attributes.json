@@ -1,0 +1,12 @@
+{
+	"title": "Subscription",
+	"description": "Model of the Subscription",
+	"type": "object",
+	"properties": {
+		"validUntil": {
+			"description": "user's subscription validUntil",
+			"type": "string"
+		}
+	},
+	"required": ["validUntil"]
+}

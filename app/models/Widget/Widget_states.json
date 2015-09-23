@@ -1,0 +1,28 @@
+{
+    "usage"
+    "_":{
+    	"select":"selected",
+        "required":"public"
+    },
+    "selected":{
+    	"customize":"customized",
+        "required":"public"
+    },
+    "customized":{
+    	"compile":"compiled",
+    	"customize":"customized"
+    },
+    "compiled":{
+    	"import":"imported",
+        "required":"public",
+    	"customize":"customized"        
+    },
+    "imported":{
+    	"trigger":"active",
+    	"customize":"customized"
+    },
+    "active":{
+    	"trigger expired":"inactive",
+    	"customize":"customized"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "visitor"
+    "_":{
+    	"detect":"detected"
+    },
+    "detected":{
+    	"detect":"detected"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "purchase"
+    "_":{
+    	"create":"created"
+    },
+    "created":{
+    	"trial":"underTrial",
+        "required":"public",
+    	"checkfree":"active"
+    },
+    "underTrial":{
+    	"enable":"active",
+    	"trial expired": "inactive"
+    },
+    "active":{
+    	"disable":"inactive"
+    }
+    
+}

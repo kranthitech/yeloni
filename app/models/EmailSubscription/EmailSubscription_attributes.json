@@ -1,0 +1,28 @@
+{
+    "title": "EmailSubscription",
+    "description": "Model for EmailSubscription",
+    "type": "object",
+    "properties": {
+        "provider": {
+            "description":"EmailSubscription provider",
+            "type":"string"
+        },
+        "messageId":{
+            "description":"EmailSubscription messageId",
+            "type":"string"
+        },
+        "openedAt":{
+            "description":"EmailSubscription openedAt",
+            "type":"string"
+        },
+        "sentAt":{
+            "description":"EmailSubscription sentAt",
+            "type":"string"
+        },
+        "confirmedAt":{
+            "description":"EmailSubscription confirmedAt",
+            "type":"string"
+        }
+    },
+    "required": ["EmailSubscription"]
+}

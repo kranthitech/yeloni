@@ -1,11 +1,14 @@
 {
+    "registration"
     "_":{
-    	"register":"registered"
+    	"register":"registered",
+        "required":"public"
     },
     "registered":{
-    	"verify":"verified"
+    	"verify":"verified",
+        "required":"public"
     },
-    "verfied":{
+    "verified":{
     	"pay":"premium"
     },
     "premium":{

@@ -1,0 +1,23 @@
+{
+    "visit"
+    "_":{
+        "visit":"visited",
+        "required":"public"
+    },
+    "visited":{
+        "trigger":"triggered",
+        "required":"public",
+        "leave":"left",
+        "required":"public"
+    },
+    "triggered":{
+        "respond":"responded",
+        "required":"public",
+        "leave":"left",
+        "required":"public"
+    },
+    "responded":{
+        "leave":"left",
+        "required":"public"
+    }
+}

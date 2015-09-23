@@ -1,0 +1,17 @@
+{
+    "title": "UserResponse",
+    "extends":"UserResponse",
+    "description": "A UserResponse of the application",
+    "type": "object",
+    "properties": {
+        "schema": {
+            "description": "User's schema",
+            "type": "string"
+        },
+        "response": {
+            "description": "User's response",
+            "type": "string"
+        }
+    },
+    "required": ["schema"]
+}

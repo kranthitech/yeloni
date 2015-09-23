@@ -1,0 +1,12 @@
+[
+	{
+		"type":"hasOne",
+		"model":"EmailAddress",
+		"required":true
+	},
+	{
+		"type":"belongsTo",
+		"model":"UserResponse",
+		"required":true
+	}
+]

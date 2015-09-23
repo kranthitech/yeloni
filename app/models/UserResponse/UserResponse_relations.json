@@ -1,0 +1,12 @@
+[
+{
+    "type": "hasOne",
+    "model": "Widget",
+    "required":true
+}, 
+{
+    "type": "belongsTo",
+    "model": "Visit",
+    "required":true
+}
+]

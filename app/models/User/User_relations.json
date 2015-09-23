@@ -1,11 +1,16 @@
-[{
+[
+{
     "type": "embedsOne",
-    "model": "Authentication"
-}, {
+    "model": "Authentication",
+    "required":true
+}, 
+{
     "type": "hasMany",
     "model": "Website"
-}, {
+}, 
+{
     "type": "hasOne",
     "model": "EmailAddress",
     "required": true
-}]
+}
+]

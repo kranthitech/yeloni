@@ -1,0 +1,18 @@
+{
+    "subscription"
+    "_":{
+    	"subscribe":"created"
+    },
+    "created":{
+    	"send":"sent",
+    	"unsubscribe":"unsubscribed",
+        "required":"public"
+    },
+    "sent":{
+    	"confirm":"opted"
+    },
+    "opted":{
+    	"unsubscribe":"unsubscribed",
+    	"required":"public"
+    }
+}
